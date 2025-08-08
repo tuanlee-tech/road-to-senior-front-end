@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@libs/chat-widget/*": ["libs/chat-widget/src/*"],
+      "@libs/data-table/*": ["libs/data-table/src/*"]
+    }
+  }
+}
