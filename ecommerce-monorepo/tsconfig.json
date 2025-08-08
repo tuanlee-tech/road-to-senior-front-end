@@ -1,7 +1,10 @@
+// ecommerce-monorepo/tsconfig.json
 {
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@ecommerce-host/*": ["apps/ecommerce-host/src/*"],
+      "@admin-remote/*": ["apps/admin-remote/src/*"],
       "@libs/chat-widget/*": ["libs/chat-widget/src/*"],
       "@libs/data-table/*": ["libs/data-table/src/*"]
     }

@@ -1,6 +1,7 @@
 {
   "name": "ecommerce-monorepo",
   "version": "1.0.0",
+  "description": "",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -9,9 +10,7 @@
   "scripts": {
     "dev:ecommerce": "npm run dev --workspace=ecommerce-host",
     "dev:admin": "npm run dev --workspace=admin-remote",
-    "build:all": "npm run build --workspaces"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "build:ecommerce": "npm run build --workspace=ecommerce-host",
+    "build:admin": "npm run build --workspace=admin-remote"
+  }
 }
